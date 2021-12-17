@@ -9,7 +9,7 @@ public class Scope {
 
 
         System.out.printf("x is %d", x);
-
+        System.out.println();
 
 if (args.length!=3){
     System.out.println("usage java calculator operand1 operator operand2 ");
