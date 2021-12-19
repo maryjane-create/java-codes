@@ -69,6 +69,9 @@ Arrays.equals(wotArray, array7);
 //    stringArrayList.remove
 //}
 
+
+//        int num=Integer.parseInt("20");
+//        System.out.println(num);
         }
 
     }
