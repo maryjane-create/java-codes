@@ -4,7 +4,7 @@ public class Array11 {
 
     public static void main(String[] args) {
 
-displaySevenDigitEquivalentOf("1110111");
+displaySevenDigitEquivalentOf("1010111");
 //        String[][] star = {{"*", "*", "*", "*"}, {"*", "*", "*", "*"},{"*", "*", "*", "*"},{"*", "*", "*", "*"} };
 
 //        for (int row=0;row< star.length;row++) {
