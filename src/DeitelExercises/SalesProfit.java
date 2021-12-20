@@ -16,28 +16,25 @@ int numberOfItems=0;
 if (item==1||item==2||item==3||item==4) {
     if (item == 1) {
         value += 239;
-        earning = value * numberOfItems + 200.00;
-        System.out.println(earning);
+
     }
     if (item == 2) {
         value +=500;
-        earning=value*numberOfItems+200.0;
-        System.out.println(earning);
+
     }
 
     if (item == 3) {
         value +=600;
-        earning=value*numberOfItems+200.0;
-        System.out.println(earning);
+
     }
 
     if (item == 4) {
         value +=450;
-        earning=value*numberOfItems+200.0;
-        System.out.println(earning);
+
     }
 }
-
+        earning = value * numberOfItems + 200.00;
+        System.out.println(earning);
 }
 
 

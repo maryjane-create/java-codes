@@ -11,7 +11,7 @@ public class Arrays4 {
 
         for (int counter =0;counter< grades.length;counter++){
             grades[counter]=counter*2;
-            System.out.printf("%d \t%d%n", counter, grades[counter]);
+            System.out.printf("%d \t      %d%n", counter, grades[counter]);
 
         }
 
