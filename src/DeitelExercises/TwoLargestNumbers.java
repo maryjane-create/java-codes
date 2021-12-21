@@ -27,6 +27,8 @@ public class TwoLargestNumbers {
         System.out.printf(" the array is arranged in the following ascending order %s ", Arrays.toString(number));
         System.out.println();
         System.out.printf(" the second largest number is %d", number[size-2]);
+        System.out.println();
+        System.out.printf(" the largest number is %d", number[size-1]);
 
 
 
