@@ -29,17 +29,14 @@ public class Mystery2 {
 if (num<=10) {
     for (int count = 1; count <= num; count++) {
         System.out.printf("*");
-
     }
-    System.out.println();
+
     for (int i=1; i<=num-1; i++)
     {System.out.println();
     for ( int count=1; count<=num-i; count++){
 
         System.out.printf("%s", "*");
     }
-
-    System.out.println();
 }}
 else {
     System.out.printf("out of bounds");
