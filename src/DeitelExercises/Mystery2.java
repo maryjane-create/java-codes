@@ -30,7 +30,6 @@ if (num<=10) {
     for (int count = 1; count <= num; count++) {
         System.out.printf("*");
     }
-
     for (int i=1; i<=num-1; i++)
     {System.out.println();
     for ( int count=1; count<=num-i; count++){
