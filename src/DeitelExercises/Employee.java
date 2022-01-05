@@ -2,31 +2,61 @@ package DeitelExercises;
 
 public class Employee {
 
+    public  static  int count =0;
+    public String firstName;
+    public  String lastName;
 
-private  String firstName;
-private  String lastName;
-private  static int count =0;
 
-private Employee(String firstName, String lastName){
-    this.firstName= firstName;
-    this.lastName= lastName;
+    Employee(String firstName, String lastName){
+        this.firstName= firstName;
+        this.lastName=lastName;
+        count++;
+        System.out.printf("Employee constructor: %s %s %s%n ", firstName, lastName, count);
+    }
 
-    count++;
+    public String getFirstName() {
+        return firstName;
+    }
 
-    System.out.printf("employee details: %s %s count :%d", firstName, lastName, count);
-}
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-public String getFirstName(){
-    return  firstName;
-}
+    public String getLastName() {
+        return lastName;
+    }
 
-public  String getLastName(){
-    return  lastName;
-}
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 
-public static int getCount(){
-    return  count;
-}
+    public static int getCount() {
+        return count;
+    }
+    //private  String firstName;
+//private  String lastName;
+//private  static int count =0;
+//
+//private Employee(String firstName, String lastName){
+//    this.firstName= firstName;
+//    this.lastName= lastName;
+//
+//    count++;
+//
+//    System.out.printf("employee details: %s %s count :%d", firstName, lastName, count);
+//}
+//
+//public String getFirstName(){
+//    return  firstName;
+//}
+//
+//public  String getLastName(){
+//    return  lastName;
+//}
+//
+//public static int getCount(){
+//    return  count;
+//}
 
 
 
