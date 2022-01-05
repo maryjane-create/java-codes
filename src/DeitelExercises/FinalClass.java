@@ -3,15 +3,15 @@ package DeitelExercises;
 public class FinalClass {
     public static void main(String[] args) {
 
-        PackageData packageData = new PackageData();
-packageData.number=67;
-packageData.string="hello";
+        PackageData1 packageData = new PackageData1();
+//packageData.number=67;
+//packageData.string="hello";
 
         System.out.printf("%s", packageData);
     }
 }
 
-    class PackageData{
+    class PackageData1 {
         int number=5;
         String string="nice one ";
 
