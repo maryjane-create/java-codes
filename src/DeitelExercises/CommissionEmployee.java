@@ -5,9 +5,10 @@ public class CommissionEmployee {
     String firstName;
     String lastName;
     double commissionRate;
-    double socialSecurityNumber;
+    String socialSecurityNumber;
+    double grossSales;
 
-    private  CommissionEmployee(String firstName,String lastName, double socialSecurityNumber){
+    private  CommissionEmployee(String firstName, String lastName, String securityNumber, double socialSecurityNumber, double grossSales){
         this.firstName=firstName;
         this.lastName= lastName;
         if (commissionRate>0.0)this.commissionRate=commissionRate;
@@ -38,23 +39,30 @@ public class CommissionEmployee {
         this.commissionRate = commissionRate;
     }
 
-    public double getSocialSecurityNumber() {
+    public String getSocialSecurityNumber() {
         return socialSecurityNumber;
     }
 
-    public void setSocialSecurityNumber(double socialSecurityNumber) {
-        if (socialSecurityNumber>0.0)
+    public void setSocialSecurityNumber(String socialSecurityNumber) {
+        
         this.socialSecurityNumber = socialSecurityNumber;
     }
 
+    public double getGrossSales() {
+        return grossSales;
+    }
 
+    public void setGrossSales(double grossSales) {
+        if (grossSales>0.0)
+        this.grossSales = grossSales;
+    }
 
     @Override
     public  String toString(){
         return  String.format("""
                 firstName:%s
                 lastName:%s
-                SSN:%d
+                SSN:%s
                 CN:%d""");
     }
 

@@ -9,7 +9,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
 
 
     BasePlusCommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double commissionRate){
-        super(firstName, lastName, socialSecurityNumber, grossSales, commissionRate);
+        super(firstName, lastName, socialSecurityNumber, commissionRate,grossSales);
     }
 
     public String getFirstName() {
