@@ -9,7 +9,7 @@ public class Cylinder {
     public Cylinder(double radius, double height){
         if (radius>0.0)this.radius=radius;
         if (height>0.0)this.height=height;
-        System.out.printf("%f", result);
+
     }
 
     public double getRadius() {
@@ -31,6 +31,10 @@ public class Cylinder {
     }
     public double volume(double radius, double height){
          result =Math.PI*radius*radius*height;
+         return result;
+    }
+
+    public double getResult() {
         return result;
     }
 }
