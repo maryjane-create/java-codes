@@ -8,7 +8,7 @@ public class CommissionEmployee {
     String socialSecurityNumber;
     double grossSales;
 
-    private  CommissionEmployee(String firstName, String lastName, String securityNumber, double socialSecurityNumber, double grossSales){
+    public   CommissionEmployee(String firstName, String lastName, String securityNumber, double socialSecurityNumber, double grossSales){
         this.firstName=firstName;
         this.lastName= lastName;
         if (commissionRate>0.0)this.commissionRate=commissionRate;
