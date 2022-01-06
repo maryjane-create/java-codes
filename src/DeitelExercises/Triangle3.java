@@ -27,8 +27,13 @@ public class Triangle3 {
 
             for (int count = 0; count <= num - 1; count++) {
                 System.out.printf("%s", " ");
-
             }
+
+
+
+
+
+
 
 
 //                for (int number = 8; number >=0; number--) {
