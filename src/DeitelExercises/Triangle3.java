@@ -5,9 +5,9 @@ public class Triangle3 {
 
 
 
-        for (int num =0; num<=8; num++){
+        for (int count =0; count<=8; count++){
             System.out.println();
-            for (int count =8; count>=num+1; count--){
+            for (int num =8; num>=count; num--){
                 System.out.printf("%s", "*");
             }
 //       System.out.println();
@@ -16,7 +16,7 @@ public class Triangle3 {
 
         for (int num=0; num<=8; num++){
             System.out.println();
-            for (int count =0; count<=num-1;count++ ){
+            for (int count =0; count<=num;count++ ){
                 System.out.printf("%s", "*");
             }
         }
@@ -51,10 +51,7 @@ public class Triangle3 {
             for (int count =8; count>=num-1; count--){
                 System.out.printf(" ");
             }
-
-
-
-                for (int number=1; number<=num; number++)
+                for (int number=0; number<=num; number++)
                 {System.out.printf("*");}
             }
 
