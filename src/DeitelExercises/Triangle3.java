@@ -20,6 +20,46 @@ public class Triangle3 {
                 System.out.printf("%s", "*");
             }
         }
+
+        for (int num=0;  num<=8; num++) {
+            System.out.println();
+            for (int count = 0; count <= num - 1; count++) {
+                System.out.printf("%s", " ");
+
+            }
+
+
+//                for (int number = 8; number >=0; number--) {
+                    int number =8;
+
+                    for (int count=0; count<=number-num; count++)
+                    { System.out.printf("*");}
+//                }
+
+
+//            for (num = 8; num >= 1; num--) {
+//                for (int count =0; count<=num+1; count++)
+//                System.out.printf("%s", "*");
+//            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //        System.out.println();
 //        for (int num =0; num<=7; num++){
 //            System.out.printf("%s", "*");
