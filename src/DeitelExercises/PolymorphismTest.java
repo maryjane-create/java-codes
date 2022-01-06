@@ -10,10 +10,11 @@ public class PolymorphismTest {
 
         BasePlusCommissionEmployee basePlusCommissionEmployee = new BasePlusCommissionEmployee("Joe","Blogs", "555", 66, 89, 5);
 
+//        System.out.printf("%s %s %s %f %f %n",   commissionEmployee.toString());
 
 
-
-
+CommissionEmployee commissionEmployee1= basePlusCommissionEmployee;
+        System.out.printf("%s %s ", "c", commissionEmployee1);
 
 
 

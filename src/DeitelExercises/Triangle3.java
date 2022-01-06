@@ -2,28 +2,157 @@ package DeitelExercises;
 
 public class Triangle3 {
     public static void main(String[] args) {
-int num=1;
 
-int number=0;
+
+
+        for (int num =0; num<=8; num++){
+            System.out.println();
+            for (int count =8; count>=num+1; count--){
+                System.out.printf("%s", "*");
+            }
+//            System.out.println();
+        }
+//        System.out.println();
+//        for (int num =0; num<=7; num++){
+//            System.out.printf("%s", "*");
+//        }
+//
+//        System.out.println();
+//        for (int num =0; num<=6; num++){
+//            System.out.printf("%s", "*");
+//        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //        for (int count =8; count>=1; count--){
 //            System.out.println();
 //            for (int counter =1; counter<=8-count; counter++){
 //                System.out.printf("%s", "*");
 //            }
-            System.out.println();
+//            System.out.println();
+//for (int number=0; number<=9; number++){
+//            for (int num=8; num>=0; num--){
+//int count=8;
+//if (count<=8 && count>0){count--;
+//
+//System.out.printf("%s", "*");}
+//            }
+//        System.out.println();}
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-            for ( num=1; num<=8; num++){
-                System.out.printf("%s", "*");
 
-            }
-            for (number =1; number<=number-num; number++){
-                System.out.printf("%s", "*");
-                for (int i =1; i<=number-i; i++){
-                    System.out.println();
-                }
 
-            }
+
+
+
+
+
+
+//            for (number =1; number<=number-num; number++){
+//                System.out.printf("%s", "*");
+//                for (int i =1; i<=number-i; i++){
+//                    System.out.println();
+//                }
+//
+//            }
 
 
 
