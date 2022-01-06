@@ -20,9 +20,11 @@ public class Triangle3 {
                 System.out.printf("%s", "*");
             }
         }
+        System.out.println();
 
         for (int num=0;  num<=8; num++) {
             System.out.println();
+
             for (int count = 0; count <= num - 1; count++) {
                 System.out.printf("%s", " ");
 
