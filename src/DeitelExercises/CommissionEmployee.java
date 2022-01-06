@@ -58,13 +58,59 @@ public class CommissionEmployee {
     }
 
     @Override
-    public  String toString(){
-        return  String.format("""
+    public String toString(){
+        return String.format("""
                 firstName:%s
                 lastName:%s
                 SSN:%s
-                CN:%d""");
+                grossSales:%f
+                CR:%f""");
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    @Override
+//    public  String toString(){
+//        return  String.format("""
+//                firstName:%s
+//                lastName:%s
+//                SSN:%s
+//                CN:%d""");
+//    }
 
 
 
