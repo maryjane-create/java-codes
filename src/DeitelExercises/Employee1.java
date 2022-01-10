@@ -7,10 +7,10 @@ public abstract class Employee1 {
     private  final String lastName;
     private  final String socialSecurityNumber;
 
-    public Employee1(String firstName, String lastName, String socialSecurityNumber){
+    public Employee1(String firstName, String lastName, double socialSecurityNumber){
         this.firstName= firstName;
         this. lastName= lastName;
-        this. socialSecurityNumber= socialSecurityNumber;
+        this. socialSecurityNumber= String.valueOf(socialSecurityNumber);
     }
 
     public String getFirstName() {

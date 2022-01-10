@@ -6,7 +6,7 @@ public class BasePlusEmployee2 extends  Employee1{
     private double salary;
 
     public BasePlusEmployee2(String firstName, String lastName, String socialSecurityNumber, double baseSalary) {
-        super(firstName, lastName, socialSecurityNumber);
+        super(firstName, lastName, Double.parseDouble(socialSecurityNumber));
 
         if (baseSalary<0.0){
             throw  new IllegalArgumentException("invalid amount");

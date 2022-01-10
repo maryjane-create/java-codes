@@ -1,6 +1,6 @@
 package DeitelExercises;
 
-public abstract class SalariedEmployee extends Employee1 {
+public  class SalariedEmployee extends Employee1 {
 
     private  double wages;
     private  double hours;
@@ -8,7 +8,7 @@ public abstract class SalariedEmployee extends Employee1 {
 
 
     public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber) {
-        super(firstName, lastName, socialSecurityNumber);
+        super(firstName, lastName, Double.parseDouble(socialSecurityNumber));
 
         if (wages<0.0){
             throw  new IllegalArgumentException("invalid amount");

@@ -1,6 +1,6 @@
 package DeitelExercises;
 
-public class CommissionEmployee {
+public class CommissionEmployee extends Employee1 {
 
     String firstName;
     String lastName;
@@ -9,6 +9,7 @@ public class CommissionEmployee {
     double grossSales;
 
     public   CommissionEmployee(String firstName, String lastName, String securityNumber, double socialSecurityNumber, double grossSales){
+        super(firstName, lastName, socialSecurityNumber);
         this.firstName=firstName;
         this.lastName= lastName;
         if (commissionRate>0.0)this.commissionRate=commissionRate;
@@ -67,40 +68,10 @@ public class CommissionEmployee {
                 CR:%f""");
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Override
+    public double earning() {
+        return 0;
+    }
 
 
 //    @Override
