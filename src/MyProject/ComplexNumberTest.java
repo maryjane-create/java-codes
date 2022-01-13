@@ -6,7 +6,7 @@ public class ComplexNumberTest {
 
         ComplexNumbers complexNumbers= new ComplexNumbers();
 
-        System.out.printf("%2f", complexNumbers.x);
+        complexNumbers.calculateComplexOf(4.0);
 
 
 
