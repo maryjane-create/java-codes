@@ -9,7 +9,7 @@ public class ComplexNumbers {
             throw new ArithmeticException("number should be negative");
         }
         else {
-            x= Math.sqrt(-1);
+            x= Math.sqrt(4);
            result= x+y;
         }
     }
