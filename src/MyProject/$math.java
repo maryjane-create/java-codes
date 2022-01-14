@@ -4,7 +4,9 @@ public class $math {
 
     public static void main(String[] args) {
         displayQuadraticRootOf(1,3,1);
-        displayPrimeNumbersFromZeroTo(100);
+        System.out.println();
+        findTheGpsOfPoints(7,6);
+        //displayPrimeNumbersFromZeroTo(100);
     }
 
 
@@ -29,6 +31,12 @@ public class $math {
             if (number%divisor==0)flag=false;
         }
 
+    }
+
+
+    public static void findTheGpsOfPoints(int x, int y){
+        double result = Math.sqrt((x*x)+(y*y));
+        System.out.printf("%f", result);
     }
 
 }
