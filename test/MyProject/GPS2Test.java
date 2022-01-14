@@ -15,7 +15,7 @@ class GPS2Test {
     @Test
     public  void weAreCheckingGpsOf(){
         GPS2 gps2= new GPS2(3, 2, 4, 5);
-        assertEquals(2,1);
+        assertEquals(3, 1.414, gps2.findDistanceBetweenPoints());
     }
 
 }
