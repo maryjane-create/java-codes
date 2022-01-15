@@ -35,6 +35,9 @@ int rating10=0;
             }
             for (int x=0; x< 1; x++){
                 int userRating= scanner.nextInt();
+                if (userRating<1 || userRating>10){
+                    throw new ArithmeticException("rating out of bound");
+                }
                 switch (userRating){
                     case 1:rating1+=1;
                     break;
