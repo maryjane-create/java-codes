@@ -78,7 +78,7 @@ int rating10=0;
 
         }
 
-        System.out.printf("%s\t%d%n%s\t%d%n", "minimum  frequencyis ", minimum, "maximum frequency is", maximum);
+        System.out.printf("%s\t%d%n%s\t%d%n", "minimum  frequency is ", minimum, "maximum frequency is", maximum);
 
 
 
