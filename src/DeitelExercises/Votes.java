@@ -65,11 +65,20 @@ int rating10=0;
 
         }
         int [] ratingp={rating1, rating2, rating3, rating4, rating5, rating6, rating7, rating8, rating9, rating10};
-
+        int minimum=ratingp[0];
+        int maximum=ratingp[0];
         System.out.printf("%s\t%s%n", "rating", "frequency");
         for (  int i=0; i< ratingp.length; i++){
             System.out.printf("\t%d\t%d\t%n",rating[i], ratingp[i] );
+
+                if (ratingp[i]<minimum){minimum=ratingp[i];}
+                if (ratingp[i]>maximum){maximum=ratingp[i];}
+
+
+
         }
+
+        System.out.printf("%s\t%d%n%s\t%d%n", "minimum  frequencyis ", minimum, "maximum frequency is", maximum);
 
 
 
