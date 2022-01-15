@@ -22,11 +22,22 @@ int rating10=0;
 
 
         Scanner scanner= new Scanner(System.in);
-
-
-        System.out.printf("%s\t%n", "topics");
-
         System.out.println();
+        System.out.println();
+
+String message= """
+        Hey there!
+        You have been selected to give your opinion through the following survey.There are five topics,
+        and you are  to rate how important these topics are to the community based on urgency  and impact.
+        Choose on a scale of 1 to 10 the level of importance and urgency as applied to your community.
+      
+        
+        """;
+
+        System.out.printf("%s%n", message);
+
+        System.out.printf("%s\t\t              %s%n", "topics", "rating");
+
         for (int i =0; i<topics.length; i++){
             System.out.printf("%s\t",  topics[i]);
             for (int j=0; j< rating.length; j++){
@@ -38,6 +49,7 @@ int rating10=0;
                 if (userRating<1 || userRating>10){
                     throw new ArithmeticException("rating out of bound");
                 }
+
                 switch (userRating){
                     case 1:rating1+=1;
                     break;
