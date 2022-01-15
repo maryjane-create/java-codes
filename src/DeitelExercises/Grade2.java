@@ -9,7 +9,7 @@ int score=0;
 
 for (int i=0; i< answer.length;i++){
     for (int j=0; j< studentScore.length;j++) {
-        if (answer[i] == studentScore[j][i]){
+        if (answer[j] == studentScore[j][i]){
             score+=1;
         }
     }
