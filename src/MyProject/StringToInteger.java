@@ -1,6 +1,6 @@
 package MyProject;
 
-public class Array {
+public class StringToInteger {
 
     public static void main(String[] args) {
 

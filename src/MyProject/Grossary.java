@@ -2,7 +2,7 @@ package MyProject;
 
 import java.util.ArrayList;
 
-public class Array13 {
+public class Grossary {
 
     public static void main(String[] args) {
 

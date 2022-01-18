@@ -1,6 +1,6 @@
 package DeitelExercises;
 
-public class Array7 {
+public class ArrayElements {
 
     public  static  void displayArrayElements(int [] []array){
         int[][] numbers= {{5, 1, 3, 8}, {3, 5, 9}, {4, 8,4}};

@@ -1,6 +1,6 @@
 package DeitelExercises;
 
-public class Array8 {
+public class EditedRowInArray {
     public static void main(String[] args) {
 
 

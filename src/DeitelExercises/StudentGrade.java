@@ -1,6 +1,6 @@
 package DeitelExercises;
 
-public class Arrays5 {
+public class StudentGrade {
 
 
     public static void main(String[] args) {

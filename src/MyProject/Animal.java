@@ -1,6 +1,7 @@
 package MyProject;
 
 public interface Animal {
+
     interface  AnimalEat{
 void  eat();
     }

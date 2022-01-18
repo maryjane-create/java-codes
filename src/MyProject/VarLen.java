@@ -1,6 +1,6 @@
 package MyProject;
 
-public class Array10 {
+public class VarLen {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package MyProject;
 
-public class Swap {
+public class SwapNumbers {
     public static void main(String[] args) {
 
 

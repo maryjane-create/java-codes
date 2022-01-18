@@ -1,9 +1,7 @@
 package MyProject;
-import java.text.NumberFormat;
 import java.math.BigDecimal;
-import java.time.Year;
 
-public class BigDecimal1 {
+public class CompoundInterest {
 
     public static void main(String[] args) {
 

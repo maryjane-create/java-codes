@@ -18,7 +18,7 @@ public class GuessApp {
 int guessNumber = scanner.nextInt();
 
 
-while (guessNumber!=answer) {System.out.println("please try again");System.out.println("please enter answer to "+ number1 +" and " + number2);
+while (guessNumber!=answer) {System.out.println("please try again");//System.out.println("please enter answer to "+ number1 +" and " + number2);
          guessNumber= scanner.nextInt();}
         if (guessNumber==answer){
             System.out.println("correct!");

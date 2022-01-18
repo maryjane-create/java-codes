@@ -1,6 +1,6 @@
 package MyProject;
 
-public class Array11 {
+public class SevenSegmentDisplay {
 
     public static void main(String[] args) {
 
