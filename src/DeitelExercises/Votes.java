@@ -47,12 +47,87 @@ public class Votes {
 
                 }
                 for (int x = 0; x < 1; x++) {
-                    int userRating = scanner.nextInt();
-                    if (userRating < 1 || userRating > 10) {
+                    int user1Rating = scanner.nextInt();
+                    int user2Rating= scanner.nextInt();
+                    int user3Rating= scanner.nextInt();
+
+                    if (user1Rating < 1 || user1Rating > 10) {
+                        throw new ArithmeticException("rating out of bound");
+                    }
+                    if (user2Rating < 1 || user2Rating > 10) {
+                        throw new ArithmeticException("rating out of bound");
+                    }
+                    if (user3Rating < 1 || user3Rating > 10) {
                         throw new ArithmeticException("rating out of bound");
                     }
 
-                    switch (userRating) {
+                    switch (user1Rating) {
+                        case 1:
+                            rating1 += 1;
+                            break;
+                        case 2:
+                            rating2 += 1;
+                            break;
+                        case 3:
+                            rating3 += 1;
+                            break;
+                        case 4:
+                            rating4 += 1;
+                            break;
+                        case 5:
+                            rating5 += 1;
+                            break;
+                        case 6:
+                            rating6 += 1;
+                            break;
+                        case 7:
+                            rating7 += 1;
+                            break;
+                        case 8:
+                            rating8 += 1;
+                            break;
+                        case 9:
+                            rating9 += 1;
+                            break;
+                        case 10:
+                            rating10 += 1;
+                            break;
+
+                    }
+                    switch (user2Rating) {
+                        case 1:
+                            rating1 += 1;
+                            break;
+                        case 2:
+                            rating2 += 1;
+                            break;
+                        case 3:
+                            rating3 += 1;
+                            break;
+                        case 4:
+                            rating4 += 1;
+                            break;
+                        case 5:
+                            rating5 += 1;
+                            break;
+                        case 6:
+                            rating6 += 1;
+                            break;
+                        case 7:
+                            rating7 += 1;
+                            break;
+                        case 8:
+                            rating8 += 1;
+                            break;
+                        case 9:
+                            rating9 += 1;
+                            break;
+                        case 10:
+                            rating10 += 1;
+                            break;
+
+                    }
+                    switch (user1Rating) {
                         case 1:
                             rating1 += 1;
                             break;
