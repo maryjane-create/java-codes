@@ -9,13 +9,13 @@ public class Factorial {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter number");
         int num = scanner.nextInt();
+        int factorial=1;
+for (int counter=1; counter<num+1;counter++){
+    factorial=factorial*counter;
 
+}
+        System.out.println(factorial);
 
-         for (int number=num; number>1; number--){
-             int factorial=num;
-             factorial--;
-                 factorial *= (num--);
-                 System.out.println(factorial);
              }
 
          }
@@ -115,4 +115,4 @@ public class Factorial {
 //            System.out.println(factorial);
 //
 //        }
-    }
+
