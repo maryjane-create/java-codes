@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ShortestDistanceBetweenPoints {
 
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
         GPS2 gps2=new GPS2(3,4,5,6);

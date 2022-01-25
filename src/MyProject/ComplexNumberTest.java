@@ -1,7 +1,7 @@
 package MyProject;
 
 public class ComplexNumberTest {
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
         ComplexNumbers complexNumbers= new ComplexNumbers();

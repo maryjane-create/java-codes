@@ -4,7 +4,7 @@ import java.security.SecureRandom;
 import java.util.Scanner;
 
 public class GuessApp {
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
         Scanner scanner = new Scanner(System.in);
 
         SecureRandom secureRandom = new SecureRandom();

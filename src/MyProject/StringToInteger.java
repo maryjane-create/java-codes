@@ -2,7 +2,7 @@ package MyProject;
 
 public class StringToInteger {
 
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
 

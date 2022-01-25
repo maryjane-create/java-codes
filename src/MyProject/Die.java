@@ -3,7 +3,7 @@ package MyProject;
 import java.security.SecureRandom;
 
 public class Die {
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
 

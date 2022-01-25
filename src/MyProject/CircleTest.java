@@ -1,7 +1,7 @@
 package MyProject;
 
 public class CircleTest {
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
         Circle1 circle1= new Circle1(4);

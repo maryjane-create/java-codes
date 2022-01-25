@@ -2,7 +2,7 @@ package MyProject;
 
 public class $math {
 
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
         displayQuadraticRootOf(1,3,1);
         System.out.println();
         findTheGpsOfPoints(7,6);

@@ -3,15 +3,15 @@ package MyProject;
 public class Multiples2 {
 
 
-    public static void main(String[] args) {
-        findTheFactorialOf(3);
+    public static void main(String3[] args) {
+        factorialOf(3);
         findTheFakeFibonacciOf(5);
     }
 
 
 
 
-    public static   int findTheFactorialOf(int number){
+    public static   int factorialOf(int number){
         int factorial=1;
         for (int i=1; i<=number; i++){
              factorial = i*factorial;
@@ -25,7 +25,7 @@ public class Multiples2 {
 
 
     public  static  int findTheFakeFibonacciOf(int num){
-        int result = (int) (findTheFactorialOf(num)*Math.PI);
+        int result = (int) (factorialOf(num)*Math.PI);
         System.out.println(result);
         return  result;
     }

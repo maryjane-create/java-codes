@@ -1,7 +1,7 @@
 package MyProject;
 
 public class SwapNumbers {
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
         int [] a = {1,2};

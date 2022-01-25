@@ -1,10 +1,8 @@
 package MyProject;
 
-import java.util.Arrays;
-
 public class GradeTest {
 
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
         char[][] grade = {{'A', 'C', 'C', 'A', 'D', 'C', 'A', 'B', 'C', 'A'},{'A', 'C', 'C', 'A', 'C', 'C', 'A', 'B', 'D', 'A'}, {'D', 'A', 'C', 'B', 'D', 'D', 'A', 'C', 'C', 'A'}, {'D', 'A', 'C', 'A', 'D', 'C', 'A', 'D', 'C', 'B'}};
 

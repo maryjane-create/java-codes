@@ -1,21 +1,21 @@
 package MyProject;
 
 public class String2 {
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
-        char[]letters={'i', 'k', 't'};
-        String name="motunrayo";
-        int num= 90;
-
-
-        String letterDemo=new String(letters);
-        String nameDemo=new String(name);
-
-
-        System.out.printf("%s%n %s %n", letterDemo, nameDemo);
-
-
+//        char[]letters={'i', 'k', 't'};
+//        String2 name="motunrayo";
+//        int num= 90;
+//
+//
+//        String3 letterDemo=new String3(letters);
+//        String3 nameDemo=new String3(name);
+//
+//
+//        System.out.printf("%s%n %s %n", letterDemo, nameDemo);
+//
+//
 
 
 

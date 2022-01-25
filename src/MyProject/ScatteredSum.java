@@ -3,7 +3,7 @@ package MyProject;
 import java.util.Arrays;
 
 public class ScatteredSum {
-    public static void main(String[] args) {
+    public static void main(String3[] args) {
 
 
         int[] numbers = {3, 2, 4, 5};
