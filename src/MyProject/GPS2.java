@@ -28,6 +28,16 @@ public class GPS2 {
         this.x2 = x2;
     }
 
+//    @Override
+//    public String toString() {
+//        return "GPS2{" +
+//                "x1=" + x1 +
+//                ", y1=" + y1 +
+//                ", x2=" + x2 +
+//                ", y2=" + y2 +
+//                '}';
+//    }
+
     public double getY1() {
         return y1;
     }

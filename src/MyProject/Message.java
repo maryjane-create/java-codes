@@ -3,6 +3,11 @@ package MyProject;
 import java.util.ArrayList;
 
 public class Message {
+//    @Override
+//    public String toString() {
+//        return "Message{}";
+//    }
+
     public static void main(String[] args) {
 
 

@@ -9,9 +9,9 @@ public class Diary {
     private  ArrayList<String>entriesList;
     private  String password;
 
-    public Diary(String ownerName,ArrayList<String> entriesList, String password) {
+    public Diary(String ownerName,String password) {
         this.ownerName = ownerName;
-        this.entriesList=entriesList;
+//        this.entriesList=entriesList;
         this.password=password;
     }
 
