@@ -1,6 +1,8 @@
 package MyProject;
 
+import java.security.SecureRandom;
 import java.util.Arrays;
+import java.util.Random;
 
 public class SortArray {
 
@@ -14,14 +16,20 @@ public class SortArray {
         System.out.println();
         shuffleArray(myArray);
 
-
-
-
-
-
-
-
     }
+
+
+    public static void shuffleArray(int [] arrayElement){
+
+        SecureRandom secureRandom=new SecureRandom();
+
+//        Arrays.sort(arrayElement, arrayElement.length-1, arrayElement.length-2);
+        for (int elements :arrayElement){
+
+ System.out.println(elements);
+        }
+    }
+
 
     public static void sortArray(int[] arrayElements) {
 
@@ -33,12 +41,7 @@ public class SortArray {
     }
 
 
-    public static void shuffleArray(int [] arrayElement){
-//        Arrays.sort(arrayElement, arrayElement.length-1, arrayElement.length-2);
-        for (int elements :arrayElement){
-            System.out.println(elements);
-        }
-    }
+
 }
 
 
