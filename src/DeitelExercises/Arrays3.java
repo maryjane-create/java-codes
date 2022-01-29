@@ -1,4 +1,4 @@
-package Assignments;
+package DeitelExercises;
 
 import java.io.PrintStream;
 import java.util.Arrays;
