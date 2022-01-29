@@ -1,4 +1,4 @@
-package Assignments;
+package Assignment;
 
  public abstract   class Admin extends Users {
   @Override

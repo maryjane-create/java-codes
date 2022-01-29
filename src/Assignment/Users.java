@@ -1,4 +1,4 @@
-package Assignments;
+package Assignment;
 
 public abstract  class Users {
 
@@ -8,7 +8,7 @@ public abstract  class Users {
     String phoneNumber="";
     int age=0;
     String emailAddress="";
-    String homeAddress="";
+    HomeAddress homeAddress;
     String password="";
 
 

@@ -1,4 +1,4 @@
-package Assignments;
+package Assignment;
 
 public class Customer extends Users {
     BillingInfo billingInfo;

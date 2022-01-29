@@ -1,4 +1,4 @@
-package Assignments;
+package Assignment;
 
 public class BillingInfo {
 

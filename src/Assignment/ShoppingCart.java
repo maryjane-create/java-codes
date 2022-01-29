@@ -1,6 +1,4 @@
-package Assignments;
-
-import java.awt.*;
+package Assignment;
 
 public class ShoppingCart {
 
