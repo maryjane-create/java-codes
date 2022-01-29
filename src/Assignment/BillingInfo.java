@@ -5,7 +5,7 @@ public class BillingInfo {
     private String name;
     private String phoneNumber;
     private String deliveryAddress;
-    private String creditCardNumber;
+    private CreditCardInfo creditCardInfo;
     private  String receiverPhoneNumber;
     private  String receiverName;
 
@@ -14,7 +14,7 @@ public class BillingInfo {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.deliveryAddress = deliveryAddress;
-        this.creditCardNumber=creditCardNumber;
+//        this.creditCardNumber=creditCardNumber;
         this.receiverPhoneNumber=receiverPhoneNumber;
         this.receiverName=receiverName;
     }
@@ -44,13 +44,13 @@ public class BillingInfo {
     }
 
 
-    public String getCreditCardNumber() {
-        return creditCardNumber;
-    }
+//    public String getCreditCardNumber() {
+//        return creditCardNumber;
+//    }
 
-    public void setCreditCardNumber(String creditCardNumber) {
-        this.creditCardNumber = creditCardNumber;
-    }
+//    public void setCreditCardNumber(String creditCardNumber) {
+//        this.creditCardNumber = creditCardNumber;
+//    }
 
     public void setDeliveryAddress(String deliveryAddress) {
         this.deliveryAddress = deliveryAddress;
