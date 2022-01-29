@@ -1,6 +1,10 @@
 package Assignments;
 
 public class Customer extends Users {
+    BillingInfo billingInfo;
+    ShoppingCart shoppingCart;
+
+
 
 
 

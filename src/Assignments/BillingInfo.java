@@ -1,6 +1,6 @@
 package Assignments;
 
-public class BillingInfo extends Customer {
+public class BillingInfo {
 
     private String name;
     private String phoneNumber;
