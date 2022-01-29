@@ -32,6 +32,10 @@ public class BillingInfo {
     }
 
     public void setPhoneNumber(String phoneNumber) {
+        if (receiverPhoneNumber.length()>11 || receiverPhoneNumber.length()<1){
+            throw new IllegalArgumentException("please input a valid phone number");
+        }
+
         this.phoneNumber = phoneNumber;
     }
 
@@ -61,6 +65,14 @@ public class BillingInfo {
             throw new IllegalArgumentException("please input a valid phone number");
         }
         this.receiverPhoneNumber = receiverPhoneNumber;
+    }
+
+    public String getReceiverName() {
+        return receiverName;
+    }
+
+    public void setReceiverName(String receiverName) {
+        this.receiverName = receiverName;
     }
 }
 
