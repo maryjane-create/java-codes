@@ -1,4 +1,9 @@
 package Assignments;
 
-public class Admin {
-}
+ public abstract   class Admin extends Users {
+  @Override
+  public void accessGoods(String emailAddress, String password) {
+
+  }
+ }
+

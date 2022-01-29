@@ -1,6 +1,6 @@
 package Assignments;
 
-public interface Users {
+public abstract  class Users {
 
 
 
@@ -14,7 +14,7 @@ public interface Users {
 
 
 
-    void  accessGoods();
+   public abstract   void  accessGoods(String emailAddress, String password );
 
 
 

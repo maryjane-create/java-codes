@@ -1,4 +1,4 @@
-package Assignments;
+package DeitelExercises;
 
 public class Array2 {
     public static void main(String[] args) {
