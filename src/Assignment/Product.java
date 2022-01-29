@@ -46,9 +46,9 @@ public class Product  extends ProductCategory{
         return productCategory;
 
     }
-//    public  String toString(){
-//        return String.format("%s %s %s %n", electronics);
-//    }
+    public  String toString(){
+        return String.format("%s %s %s %n", electronics);
+    }
 
 
 }
