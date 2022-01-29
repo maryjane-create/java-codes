@@ -13,12 +13,16 @@ public class Product  extends ProductCategory{
 //    private String productCategory;
 
 
-    public Product(String productId, String productName) {
+//    public Product(String productId, String productName) {
+//
+//        this.productId = productId;
+//        this.productName=productName;
+////        this.productDescription=productDescription;
+////        this.productCategory=productCategory;
+//    }
 
-        this.productId = productId;
-        this.productName=productName;
-//        this.productDescription=productDescription;
-//        this.productCategory=productCategory;
+    public Product(String name, String phoneNumber, int age, String emailAddress, HomeAddress homeAddress, String password) {
+        super(name, phoneNumber, age, emailAddress, homeAddress, password);
     }
 
 
