@@ -1,7 +1,5 @@
 package MyProject;
 
-import java.util.ArrayList;
-
 public abstract class Traders {
 
 Shop shop1= new Shop("orange");
@@ -10,7 +8,7 @@ Shop shop3=new Shop("fresh yo");
    // ArrayList <String>shop;
 //    String [] shop={"fresh yo", "tea", "groundnut"};
 
-    public Traders(ArrayList<Items>shop, double amount){
+    public Traders(){
 
     }
 
@@ -20,6 +18,9 @@ Shop shop3=new Shop("fresh yo");
     public void sell(){
 
         collectMoney(500);
+        giveProduct(shop1.getAmount());
+        giveProduct(shop2.getAmount());
+        giveProduct(shop3.getAmount());
 //        for (goods :shop){
 //           if (shop.equals(500)){
 //               giveProduct();
@@ -27,7 +28,7 @@ Shop shop3=new Shop("fresh yo");
 //        }
     }
 
-    public  static void collectMoney(int amount){
+    public  static void collectMoney(double amount){
         if (amount>0.0) {
             System.out.println("money received");
         }
@@ -86,6 +87,7 @@ Shop shop3=new Shop("fresh yo");
 //        }
 
     }
+
 
 }
 

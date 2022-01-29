@@ -1,6 +1,6 @@
 package MyProject;
 
-public class Shop {
+public class Shop  {
     String itemName;
     double amount;
 
@@ -29,6 +29,8 @@ public class Shop {
         return  0;
 
     }
+
+
 
 
 }

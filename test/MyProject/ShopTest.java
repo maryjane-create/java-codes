@@ -27,4 +27,14 @@ class ShopTest {
         System.out.println(shop1.getItemName());
 
     }
+
+    @Test
+    public  void  testThatClassCanGiveProducts(){
+        Traders traders= new Traders() {
+            @Override
+            public void giveProduct(double amount) {
+                super.giveProduct(amount);
+            }
+        };
+    }
 }
