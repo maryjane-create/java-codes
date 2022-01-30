@@ -11,22 +11,25 @@ public abstract  class Users {
     HomeAddress homeAddress;
     String password="556677";
 
-    public Users(String name, String phoneNumber, int age, String emailAddress, HomeAddress homeAddress, String password ) {
-        this.name = name;
-        this.phoneNumber=phoneNumber;
-        this.age=age;
-        this.emailAddress=emailAddress;
-        this.homeAddress=homeAddress;
-        this.password=password;
+//    public Users(String name, String phoneNumber, int age, String emailAddress, HomeAddress homeAddress, String password ) {
+//        this.name = name;
+//        this.phoneNumber=phoneNumber;
+//        this.age=age;
+//        this.emailAddress=emailAddress;
+//        this.homeAddress=homeAddress;
+//        this.password=password;
+//    }
+
+    public Users(String name) {
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+//    public void setName(String name) {
+//        this.name = name;
+//    }
 
     public String getPhoneNumber() {
         return phoneNumber;
@@ -60,11 +63,11 @@ public abstract  class Users {
         return password;
     }
 
-    public void setPassword(String password) {
-
-
-        this.password = password;
-    }
+//    public void setPassword(String password) {
+//
+//
+//        this.password = password;
+//    }
 
     public void setHomeAddress(HomeAddress homeAddress) {
         this.homeAddress = homeAddress;
