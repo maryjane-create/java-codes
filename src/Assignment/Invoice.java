@@ -15,6 +15,7 @@ public class Invoice {
 
     public static void main(String[] args) {
         collectItems();
+        calculateCost();
     }
 
 
@@ -26,13 +27,14 @@ public class Invoice {
             // whatQuantity();
         System.out.println("enter price:");
              price= scanner.nextInt();
-            calculateTotal();
+            calculateCost();
             System.out.println("more?");
             String answer= scanner.next();
             if (answer.equals("yes")){
                 collectItems();
             }
-            else {calculateTotal();}
+            else {
+                calculateCost();}
 
         }
 
@@ -46,28 +48,17 @@ public class Invoice {
         return  quantity;
     }
 
-//    public static  double price(){
-//
-////        collectItems(goods);
-//        if (Objects.equals(goods, item[0])){
-//            amount=50;
-//        }
-//        if (Objects.equals(goods, item[1])){
-//            amount=20;
-//        }
-//        if (Objects.equals(goods, item[2])){
-//            amount=30;
-//        }
-//        if (Objects.equals(goods, item[3])){
-//            amount=40;
-//        }
-//        return  amount;
-//    }
-    public  static void calculateTotal(){
+    public  static void calculateCost(){
+        double total=0;
+
+        int count=1;
+        double [] totalCost=new double[count];
         double cost = (price*whatQuantity());
 
+        System.out.println(total);
+    }
 
-        System.out.println(cost);
+    public static   void  calculateTotal(){
 
 
     }
