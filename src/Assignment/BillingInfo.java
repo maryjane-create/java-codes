@@ -14,7 +14,6 @@ public class BillingInfo {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.deliveryAddress = deliveryAddress;
-//        this.creditCardNumber=creditCardNumber;
         this.receiverPhoneNumber=receiverPhoneNumber;
         this.receiverName=receiverName;
     }
@@ -43,14 +42,6 @@ public class BillingInfo {
         return deliveryAddress;
     }
 
-
-//    public String getCreditCardNumber() {
-//        return creditCardNumber;
-//    }
-
-//    public void setCreditCardNumber(String creditCardNumber) {
-//        this.creditCardNumber = creditCardNumber;
-//    }
 
     public void setDeliveryAddress(String deliveryAddress) {
         this.deliveryAddress = deliveryAddress;

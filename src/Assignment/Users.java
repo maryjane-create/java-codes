@@ -20,7 +20,7 @@ public abstract  class Users {
 //        this.password=password;
 //    }
 
-    public Users(String name) {
+    public Users(String name, String phoneNumber, int age, String emailAddress, HomeAddress homeAddress, String password) {
     }
 
     public String getName() {
