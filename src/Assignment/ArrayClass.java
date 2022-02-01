@@ -1,17 +1,28 @@
 package Assignment;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class ArrayClass {
 
-
     static String [] array= new  String[4];
+
+    public static void main(String[] args) {
+        System.out.printf("%s", addElements(""));
+
+
+    }
+
+
+
 
 
 
     public static  String[] addElements(String element){
-        Arrays.fill(array, element);
-        return array;
+        for (String item:array){
+            array[array.length-1]=element;
+        }
+
+        return  array;
     }
 
 }
