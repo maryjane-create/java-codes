@@ -94,72 +94,72 @@ public class Votes {
                             break;
 
                     }
-                    switch (user2Rating) {
-                        case 1:
-                            rating1 += 1;
-                            break;
-                        case 2:
-                            rating2 += 1;
-                            break;
-                        case 3:
-                            rating3 += 1;
-                            break;
-                        case 4:
-                            rating4 += 1;
-                            break;
-                        case 5:
-                            rating5 += 1;
-                            break;
-                        case 6:
-                            rating6 += 1;
-                            break;
-                        case 7:
-                            rating7 += 1;
-                            break;
-                        case 8:
-                            rating8 += 1;
-                            break;
-                        case 9:
-                            rating9 += 1;
-                            break;
-                        case 10:
-                            rating10 += 1;
-                            break;
+//                    switch (user2Rating) {
+//                        case 1:
+//                            rating1 += 1;
+//                            break;
+//                        case 2:
+//                            rating2 += 1;
+//                            break;
+//                        case 3:
+//                            rating3 += 1;
+//                            break;
+//                        case 4:
+//                            rating4 += 1;
+//                            break;
+//                        case 5:
+//                            rating5 += 1;
+//                            break;
+//                        case 6:
+//                            rating6 += 1;
+//                            break;
+//                        case 7:
+//                            rating7 += 1;
+//                            break;
+//                        case 8:
+//                            rating8 += 1;
+//                            break;
+//                        case 9:
+//                            rating9 += 1;
+//                            break;
+//                        case 10:
+//                            rating10 += 1;
+//                            break;
 
-                    }
-                    switch (user1Rating) {
-                        case 1:
-                            rating1 += 1;
-                            break;
-                        case 2:
-                            rating2 += 1;
-                            break;
-                        case 3:
-                            rating3 += 1;
-                            break;
-                        case 4:
-                            rating4 += 1;
-                            break;
-                        case 5:
-                            rating5 += 1;
-                            break;
-                        case 6:
-                            rating6 += 1;
-                            break;
-                        case 7:
-                            rating7 += 1;
-                            break;
-                        case 8:
-                            rating8 += 1;
-                            break;
-                        case 9:
-                            rating9 += 1;
-                            break;
-                        case 10:
-                            rating10 += 1;
-                            break;
-
-                    }
+                    //}
+//                    switch (user1Rating) {
+//                        case 1:
+//                            rating1 += 1;
+//                            break;
+//                        case 2:
+//                            rating2 += 1;
+//                            break;
+//                        case 3:
+//                            rating3 += 1;
+//                            break;
+//                        case 4:
+//                            rating4 += 1;
+//                            break;
+//                        case 5:
+//                            rating5 += 1;
+//                            break;
+//                        case 6:
+//                            rating6 += 1;
+//                            break;
+//                        case 7:
+//                            rating7 += 1;
+//                            break;
+//                        case 8:
+//                            rating8 += 1;
+//                            break;
+//                        case 9:
+//                            rating9 += 1;
+//                            break;
+//                        case 10:
+//                            rating10 += 1;
+//                            break;
+//
+//                    }
                 }
 
 
