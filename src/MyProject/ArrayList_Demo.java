@@ -1,8 +1,5 @@
 package MyProject;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class ArrayList_Demo {
     int num;
     String [] array=new String[num];
@@ -30,14 +27,13 @@ public class ArrayList_Demo {
         this.array = array;
     }
 
-    public void addElement(String element, int index){
+    public String addElement(String element, int index){
         if (index< array.length){
             array[index]=element;
         }
 
 
-
-
+        return element;
     }
 
 
