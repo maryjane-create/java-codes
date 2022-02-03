@@ -12,7 +12,10 @@ class ArrayList_DemoTest {
         String [] array2={"joy", "peace"};
         ArrayList_Demo arrayList_demo=new ArrayList_Demo(2, array2);
         String [] array3={"joy", "peace", "motun"};
-        assertArrayEquals(array3, array3, arrayList_demo.addElement("motun", 2));
+//        assertArrayEquals(String []array3, array3, arrayList_demo.addElement("yemi", 2));
+    }
+
+    private void assertArrayEquals(String[] array3, String[] array31, String[] yemis) {
     }
 
 }

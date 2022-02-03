@@ -27,13 +27,13 @@ public class ArrayList_Demo {
         this.array = array;
     }
 
-    public String addElement(String element, int index){
+    public String[] addElement(String element, int index){
         if (index< array.length){
             array[index]=element;
         }
 
 
-        return element;
+        return array;
     }
 
 
