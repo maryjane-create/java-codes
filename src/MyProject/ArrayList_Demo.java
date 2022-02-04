@@ -1,11 +1,9 @@
 package MyProject;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class ArrayList_Demo {
     int num;
     String [] array=new String[num];
+    private String element;
 
     public static void main(String[] args) {
         String [] letters={"dk", "hh", "jj"};
@@ -14,6 +12,9 @@ public class ArrayList_Demo {
 
         System.out.println();
         arrayList_demo.removeElement(1);
+        System.out.println();
+        arrayList_demo.addElementSequentially("egg");
+
 
     }
 
@@ -47,19 +48,26 @@ public class ArrayList_Demo {
         }
 
 
-    public  void  removeElement(int index){
-                  for (int i=0; i<array.length;i++){
-
-             array[index]=array[i+1];
-
-
-
-
-             System.out.println(array[i]);
+    public String[] removeElement(int index){
+                  for (int i=0; i<array.length-1;i++){
+                    array[index]=array[i+1];
+                    System.out.println(array[i]);
          }
 
+                  return new String[0];
     }
 
+
+    public  void addElementSequentially(String element) {
+        String[] newString = new String[array.length + 1];
+        for (int count = 0; count < newString.length; count++) {
+            newString[count] = array[count];
+            newString[newString.length - 2] = element;
+            System.out.println(newString[count]);
+        }
+
+
+    }
     }
 
 

@@ -18,4 +18,12 @@ class ArrayList_DemoTest {
     private void assertArrayEquals(String[] array3, String[] array31, String[] yemis) {
     }
 
+    @Test
+    public  void removingElements(){
+        String [] array4={"jj", "ll", "pp"};
+        ArrayList_Demo arrayList_demo=new ArrayList_Demo(array4);
+        String [] array5={"jj", "pp"};
+        assertArrayEquals(array5, array4, arrayList_demo.removeElement(1) );
+    }
+
 }
