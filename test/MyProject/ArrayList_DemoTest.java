@@ -26,4 +26,18 @@ class ArrayList_DemoTest {
         assertArrayEquals(array5, array4, arrayList_demo.removeElement(1) );
     }
 
+    @Test
+    public  void addingElementSequentially(){
+        String [] array4={"jj", "ll"};
+        String [] array5={"jj", "ll", "egg"};
+
+        ArrayList_Demo arrayList_demo=new ArrayList_Demo(array4);
+
+        assertArrayEquals(array4, array5, arrayList_demo.addElementSequentially("egg"));
+
+
+
+
+    }
+
 }
