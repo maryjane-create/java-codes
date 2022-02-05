@@ -11,17 +11,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 class AdditionTest {
-
+    Addition addition=new Addition();
     @BeforeEach
     public void assertThatAddition(){
-        Addition addition=new Addition();
+        System.out.println("correct!");
     }
 
 
     @Test
 public  void checkThatAdditionCanAdd(){
-        Addition addition=new Addition();
-        assertEquals(5,  addition.add(3, 4) );
+
+        assertEquals(7,  addition.add(3, 4) );
     }
 
 }
