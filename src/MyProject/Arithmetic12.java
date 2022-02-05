@@ -16,11 +16,14 @@ public class Arithmetic12 {
             System.out.printf("%d", result);
         }
         catch (ArithmeticException e){
-            System.err.printf("please enter an integer denominator");
+            System.err.printf("%s %n ", e);
+            System.out.printf("please enter an integer denominator");
             scanner.nextLine();
         }
         catch (InputMismatchException mismatchException){
-            System.err.printf("please enter integers");
+            System.err.printf("%s %n", mismatchException);
+            System.out.printf("please enter integers");
+            scanner.nextLine();
         }
 
 
