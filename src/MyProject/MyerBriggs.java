@@ -36,6 +36,17 @@ public class MyerBriggs {
     private static int counta115;
     private static int countb115;
     private static String TOrF;
+    private static int counta1111;
+    private static int countb1111;
+    private static int counta1112;
+    private  static  int countb1112;
+    private static int counta1113;
+    private  static  int countb1113;
+    private static int counta1114;
+    private  static  int countb1114;
+    private static int counta1115;
+    private  static  int countb1115;
+    private static String JOrP;
 
 
     public static void main(String[] args) {
@@ -186,6 +197,49 @@ public class MyerBriggs {
 
         System.out.println();
         System.out.println();
+
+
+        System.out.println("a. organized, orderly b. flexible, adaptable");
+        String question4= scanner.next();
+        if (question4.equals("a")){counta1111++;}
+        else if (question4.equals("b")){countb1111++;}
+
+        System.out.println("a. plan, schedule b. unplanned, spontaneous");
+        String question8= scanner.next();
+        if (question8.equals("a")){counta1112++;}
+        else if (question8.equals("b")){countb1112++;}
+
+
+        System.out.println("a. regulated, structured b. easy-going, live and let live");
+        String question12= scanner.next();
+        if (question12.equals("a")){counta1113++;}
+        else if (question12.equals("b")){countb1113++;}
+
+
+        System.out.println("a. preparation, plan ahead b. go with the flow, adapt as you go");
+        String question16= scanner.next();
+        if (question16.equals("a")){counta1114++;}
+        else if (question16.equals("b")){countb1114++;}
+
+
+        System.out.println("a. control, govern b. latitude, freedom");
+        String question20= scanner.next();
+        if (question20.equals("a")){counta1115++;}
+        else if (question20.equals("b")){countb1115++;}
+
+
+
+
+        System.out.printf("%d  %d %n %d %d %n %d %d %n %d  %d %n %d  %d", counta1111, countb1111, counta1112, countb1112, counta1113, countb1113, counta1114, countb1114, counta1115, countb1115);
+        System.out.println();
+        if ((counta1111+counta1112+counta1113+counta1114+counta1115)>(countb1111+countb1112+countb1113+countb1114+countb1115)){
+            JOrP="J";
+        }
+        else JOrP="P";
+        System.out.println(JOrP);
+
+
+        System.out.printf(" Your personality type according to the test is %s %s %s %s", ExtrovertOrIntrovert, SOrN, TOrF, JOrP);
 
 
 
