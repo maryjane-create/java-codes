@@ -25,6 +25,17 @@ public class MyerBriggs {
     private static int countb14;
     private static int countb15;
     private static  int counta15;
+    private static int  counta111;
+    private static int countb111;
+    private static int counta112;
+    private static int countb112;
+    private static int countb113;
+    private  static  int counta113;
+    private static int counta114;
+    private static int countb114;
+    private static int counta115;
+    private static int countb115;
+    private static String TOrF;
 
 
     public static void main(String[] args) {
@@ -36,7 +47,8 @@ public class MyerBriggs {
                 In the test below, you are to choose between a or b. Letter a corresponds to statements on the left side while letter b corresponds to statements on the right side.
                  thank you and have a great day.""");
 
-
+        System.out.println();
+        System.out.println();
 
         System.out.println("a. expend energy, enjoy groups  b. conserve energy, enjoy one-on-one?");
         String question1=scanner.next();
@@ -82,9 +94,8 @@ public class MyerBriggs {
         System.out.println();
         System.out.println(ExtrovertOrIntrovert);
 
-
-
-
+        System.out.println();
+        System.out.println();
 
 
 
@@ -126,6 +137,55 @@ public class MyerBriggs {
         }
         else SOrN="N";
         System.out.println(SOrN);
+
+
+        System.out.println();
+        System.out.println();
+
+
+        System.out.println("a. logical, thinking, questioning b. empathetic, feeling, accommodating");
+        String question3= scanner.next();
+        if (question3.equals("a")){counta111++;}
+        else if (question3.equals("b")){countb111++;}
+
+
+        System.out.println("a. candid, straight forward, frank, questioning b. tactful, kind, encouraging");
+        String question7= scanner.next();
+        if (question7.equals("a")){counta112++;}
+        else if (question7.equals("b")){countb112++;}
+
+        System.out.println("a. firm, tend to criticize, hold the line b. gentle, tend to appreciate, conciliate");
+        String question11= scanner.next();
+        if (question11.equals("a")){counta113++;}
+        else if (question11.equals("b")){countb113++;}
+
+
+        System.out.println("a.tough-minded, just b. tender-hearted, merciful");
+        String question15= scanner.next();
+        if (question15.equals("a")){counta114++;}
+        else if (question15.equals("b")){countb114++;}
+
+
+        System.out.println("a. matter of fact, issue-oriented b. sensitive, people-oriented, compassionate");
+        String question19= scanner.next();
+        if (question19.equals("a")){counta115++;}
+        else if (question19.equals("b")){countb115++;}
+
+
+
+
+
+        System.out.printf("%d  %d %n %d %d %n %d %d %n %d  %d %n %d  %d", counta111, countb111, counta112, countb112, counta113, countb113, counta114, countb114, counta115, countb115);
+        System.out.println();
+        if ((counta111+counta112+counta113+counta114+counta115)>(countb111+countb112+countb113+countb114+countb115)){
+            TOrF="T";
+        }
+        else TOrF="F";
+        System.out.println(TOrF);
+
+
+        System.out.println();
+        System.out.println();
 
 
 
