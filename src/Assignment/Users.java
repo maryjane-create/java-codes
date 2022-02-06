@@ -11,15 +11,6 @@ public abstract  class Users {
     HomeAddress homeAddress;
     String password="556677";
 
-//    public Users(String name, String phoneNumber, int age, String emailAddress, HomeAddress homeAddress, String password ) {
-//        this.name = name;
-//        this.phoneNumber=phoneNumber;
-//        this.age=age;
-//        this.emailAddress=emailAddress;
-//        this.homeAddress=homeAddress;
-//        this.password=password;
-//    }
-
     public Users(String name, String phoneNumber, int age, String emailAddress, HomeAddress homeAddress, String password) {
     }
 

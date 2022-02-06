@@ -7,7 +7,7 @@ public class ArrayClass {
     static String [] array= new  String[4];
 
     public static void main(String[] args) {
-        System.out.printf("%s", addElements(""));
+        System.out.printf("%s", addElements("jjj"));
 
 
     }

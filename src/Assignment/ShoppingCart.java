@@ -2,8 +2,6 @@ package Assignment;
 
 public class ShoppingCart extends  Items {
 
-
-
     private Items items;
 
     public ShoppingCart(Items items) {
