@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 
 class AdditionTest {
-    Addition addition=new Addition();
+//    Addition addition=new Addition();
     @BeforeEach
     public void assertThatAddition(){
         System.out.println("correct!");

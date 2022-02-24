@@ -17,8 +17,9 @@ public class Multiples {
             for (factor =0; factor<=10; factor++){
                 int sumOfFactors=factor+factor;
             }
-            System.out.println(factor);
+
         }
+        System.out.println(factor);
 
 
     }

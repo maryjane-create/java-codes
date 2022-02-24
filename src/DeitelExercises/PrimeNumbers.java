@@ -10,6 +10,10 @@ public static  boolean isPrime;
 public  static ArrayList <Integer>num=new ArrayList<>();
 static  int prime_number;
 
+public static ArrayList <Integer>numbers100=new ArrayList<>();
+
+
+
     public static void main(String[] args) {
         for (int count=0; count<=number; count++){
             checkForDivisor(number);
@@ -18,7 +22,21 @@ static  int prime_number;
       System.out.println(count);
      System.out.println(checkForDivisor(90));
         System.out.println(checkForPrime());
+        setNumber(100);
+
+        for (int elements100:numbers100){
+
         }
+        }
+
+        public static void setNumber(int number100){
+        for (int count =1; count<=100; count++){
+            numbers100.add(count);
+        }
+            System.out.print(checkForDivisor(number100));
+
+        }
+
 
 
     public static boolean checkForPrime(){

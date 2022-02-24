@@ -4,9 +4,9 @@ public class ComplexNumberTest {
     public static void main(String3[] args) {
 
 
-        ComplexNumbers complexNumbers= new ComplexNumbers();
+        complexnumbers complexNumbers= new complexnumbers();
 
-        complexNumbers.calculateComplexOf(4.0);
+//        complexNumbers.calculateComplexOf(4.0);
 
 
 
