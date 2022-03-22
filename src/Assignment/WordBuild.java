@@ -22,10 +22,27 @@ public class WordBuild {
         return indexOf+1;
     }
 
+
+
+    public  int countMaryjane(char character){
+        int count=0;
+        int counter=0;
+        for (int i=0; i<string.length(); i++){
+            if (string.charAt(i)==character){
+                count++;
+            }
+            counter=count;
+        }
+        return counter;
+    }
+
     public static void main(String[] args) {
        WordBuild wordBuild=new WordBuild();
-       wordBuild.string="qwerty";
+       wordBuild.string="uturu";
         System.out.println( wordBuild._lastIndexOf('t'));
+
+
+        System.out.println(wordBuild.countMaryjane('u'));
     }
 
 
