@@ -14,13 +14,9 @@ public class IntSwap {
 
         String missi="miSsisSippi";
 
-        for (int i=0; i<missi.length(); i++){
-         int[]   array1=new  int[missi.length()];
-         StringBuilder str=new StringBuilder();
-         str.append(missi.indexOf("s"));
-         str.append(missi.indexOf("S"));
-            System.out.println(missi.indexOf("S") +","+ missi.indexOf("s"));
-        }
+  String newString ="    chair man   ";
+        newString= newString.replaceAll("\\s+", "");
+        System.out.println(""+newString);
 
 
 
