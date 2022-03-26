@@ -12,6 +12,6 @@ public class TokenTest {
         String[] separate=sentence.split("");
         for (String separateSentences:separate){
             System.out.println(separateSentences);
-        };
+        }
     }
 }
