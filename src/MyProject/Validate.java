@@ -16,5 +16,9 @@ public class Validate {
         }
         else System.out.println("correct");
 
+        String firstName= "ada";
+        firstName=firstName.replaceAll("a", "ede");
+        System.out.println(firstName);
+
     }
 }
