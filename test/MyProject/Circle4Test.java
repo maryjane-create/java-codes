@@ -12,7 +12,7 @@ class Circle4Test {
         Assertions.assertEquals(true, circle4.isFilled);
         circle4.setRadius(4);
         assertEquals( 50.26548245743669, circle4.getArea());
-
+        System.out.println(circle4.getDateCreated());
 
     }
 
