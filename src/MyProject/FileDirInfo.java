@@ -28,14 +28,25 @@ public class FileDirInfo {
 
 
 
-
             if (Files.isDirectory(path)){
-                System.out.println("below are the directory contents");
-                DirectoryStream<Path>directoryStream=Files.newDirectoryStream(path);
+                DirectoryStream <Path> directoryStream=Files.newDirectoryStream(path);
                 for (Path path1:directoryStream){
                     System.out.println(path1);
                 }
             }
+
+
+
+
+
+//
+//            if (Files.isDirectory(path)){
+//                System.out.println("below are the directory contents");
+//                DirectoryStream<Path>directoryStream=Files.newDirectoryStream(path);
+//                for (Path path1:directoryStream){
+//                    System.out.println(path1);
+//                }
+//            }
 
 
         }
