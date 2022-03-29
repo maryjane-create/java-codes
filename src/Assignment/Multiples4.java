@@ -16,6 +16,7 @@ public class Multiples4 {
             }
         }
         System.out.println( array);
+        System.out.println(array.size());
 //int multiple=number%divisor==0;
 
 
