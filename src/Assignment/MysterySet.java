@@ -12,7 +12,6 @@ public class MysterySet {
     public int countDuplicate() {
       String lowerCaseFormat=  sentence.toLowerCase();
       String[] splitedWords=lowerCaseFormat.split(" ");
-//        ArrayList<String>wordInBasket=new ArrayList<>();
         HashMap <String, Integer> wordInBasket=new HashMap<>();
 
         for (String word:splitedWords) {

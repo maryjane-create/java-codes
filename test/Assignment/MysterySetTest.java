@@ -13,8 +13,8 @@ class MysterySetTest {
     @Test
             public  void  testThatThereIsDuplicateCount(){
         MysterySet mysterySet = new MysterySet();
-        mysterySet.sentence="The boy is a is boy";
-        assertEquals(2, mysterySet.countDuplicate());
+        mysterySet.sentence="The boy is a is boy and gir the a l girl and gir boy ";
+        assertEquals(7, mysterySet.countDuplicate());
 
     }
 
