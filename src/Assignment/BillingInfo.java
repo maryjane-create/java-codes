@@ -5,6 +5,7 @@ public class BillingInfo {
     private String name;
     private String phoneNumber;
     private String deliveryAddress;
+
     private CreditCardInfo creditCardInfo;
     private  String receiverPhoneNumber;
     private  String receiverName;
