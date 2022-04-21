@@ -17,6 +17,7 @@ public class SpecialCharacters {
             System.out.println("please input strings");
             word=scanner.nextLine();
             arrayOfStrings.add(word);
+
         }
         System.out.println(arrayOfStrings);
 
@@ -38,13 +39,21 @@ public class SpecialCharacters {
                 }
             }
 
-
-
-
-
         }
         System.out.println(arrayOfSpecialCharacter);
         System.out.println(arrayWithoutSpecialCharacter);
+
+//        for (String element:arrayOfSpecialCharacter){
+//            String output= element.substring(0,1).toUpperCase() + element.substring(1).toUpperCase();
+//            System.out.println(output);
+//        }
+//
+//        for (String element1:arrayWithoutSpecialCharacter){
+//            String output1=element1.substring(0,1).toLowerCase()+element1.substring(1).toUpperCase();
+//            System.out.println(output1);
+//        }
+
+
 
     }
 }
