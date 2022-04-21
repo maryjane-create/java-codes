@@ -12,6 +12,7 @@ public class SpecialCharacters {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> arrayOfStrings=new ArrayList<>();
         ArrayList<String>arrayOfSpecialCharacter= new ArrayList<>();
+        ArrayList<String> arrayWithoutSpecialCharacter= new ArrayList<>();
         for (int i=0; i<3; i++){
             System.out.println("please input strings");
             word=scanner.nextLine();
@@ -21,14 +22,24 @@ public class SpecialCharacters {
 
         for (String element:arrayOfStrings){
             Pattern pattern= Pattern.compile("[^a-zA-Z0-9]");
+
             Matcher matcher=pattern.matcher(element);
             boolean containsSpecialCharacter= matcher.find();
+
             if (containsSpecialCharacter){
                 arrayOfSpecialCharacter.add(element);
             }
-            System.out.println(arrayOfSpecialCharacter);
+            else {
+                arrayWithoutSpecialCharacter.add(element);
+            }
+
+
+
+
 
         }
+        System.out.println(arrayOfSpecialCharacter);
+        System.out.println(arrayWithoutSpecialCharacter);
 
     }
 }
