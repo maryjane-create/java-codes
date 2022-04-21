@@ -22,15 +22,20 @@ public class SpecialCharacters {
 
         for (String element:arrayOfStrings){
             Pattern pattern= Pattern.compile("[^a-zA-Z0-9]");
+            Pattern pattern1= Pattern.compile("[^$@!%&^*()]");
 
             Matcher matcher=pattern.matcher(element);
+            Matcher matcher1=pattern1.matcher(element);
             boolean containsSpecialCharacter= matcher.find();
+            boolean doesNotContainSpecialCharacter=matcher1.find();
 
             if (containsSpecialCharacter){
                 arrayOfSpecialCharacter.add(element);
             }
             else {
-                arrayWithoutSpecialCharacter.add(element);
+                if (doesNotContainSpecialCharacter){
+                    arrayWithoutSpecialCharacter.add(element);
+                }
             }
 
 
