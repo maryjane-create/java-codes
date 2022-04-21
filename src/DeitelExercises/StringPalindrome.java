@@ -24,7 +24,7 @@ public class StringPalindrome {
            }
            System.out.println();
 
-           for (int l = ((word.length()-1)/2)+1; l <word.length(); l++){
+           for (int l =word.length()-1 ; l >((word.length()-1)/2)+1; l--){
              StringBuilder  secondHalf= new StringBuilder().append(word.charAt(l));
                System.out.println(secondHalf);
 
