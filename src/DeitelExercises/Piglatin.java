@@ -8,9 +8,10 @@ public class Piglatin {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("please enter word");
-        String word= scanner.nextLine();
+        StringBuilder word= new StringBuilder(scanner.nextLine());
 
-       String pigLatin= word.substring(0, word.length()-1).replace(word.charAt(0), word.charAt(word.length()-1))+word.substring(0, word.length()-2).replace(word.charAt(word.length()-1), word.charAt(word.length()-2))+"ay";
+
+       StringBuilder pigLatin=word.append(word.charAt(0)).deleteCharAt(0).append('a').append('y');
         System.out.println(pigLatin);
 
 
