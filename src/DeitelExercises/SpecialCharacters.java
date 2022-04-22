@@ -38,10 +38,17 @@ public class SpecialCharacters {
                     arrayWithoutSpecialCharacter.add(element);
                 }
             }
-
         }
+
+
+
+
+
+
         System.out.println(arrayOfSpecialCharacter);
         System.out.println(arrayWithoutSpecialCharacter);
+
+        //Chat on WhatsApp with +234 811 258 7420
 
 //        for (String element:arrayOfSpecialCharacter){
 //            String output= element.substring(0,1).toUpperCase() + element.substring(1).toUpperCase();
