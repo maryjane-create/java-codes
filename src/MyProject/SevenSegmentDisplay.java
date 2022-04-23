@@ -4,7 +4,7 @@ public class SevenSegmentDisplay {
 
     public static void main(String[] args) {
 
-displaySevenDigitEquivalentOf("1010111");
+displaySevenDigitEquivalentOf("1110111");
 //        String[][] star = {{"*", "*", "*", "*"}, {"*", "*", "*", "*"},{"*", "*", "*", "*"},{"*", "*", "*", "*"} };
 
 //        for (int row=0;row< star.length;row++) {

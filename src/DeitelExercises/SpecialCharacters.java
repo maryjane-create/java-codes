@@ -42,11 +42,53 @@ public class SpecialCharacters {
 
 
 
+        for (String elements:arrayWithoutSpecialCharacter){
+            for (int i=0;i<1;i++){
+                String capitalisedWord=elements.toUpperCase();
+                char capitalisedCharacter=capitalisedWord.charAt(0);
+                StringBuilder capitalisedFirstLetter= new StringBuilder(elements.replace(elements.charAt(i), capitalisedCharacter));
+                System.out.println(capitalisedFirstLetter);
+            }
+
+        }
 
 
 
-        System.out.println(arrayOfSpecialCharacter);
-        System.out.println(arrayWithoutSpecialCharacter);
+
+//
+//        System.out.println(arrayOfSpecialCharacter);
+//        System.out.println(arrayWithoutSpecialCharacter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //Chat on WhatsApp with +234 811 258 7420
 
