@@ -14,7 +14,7 @@ public class MatchingString {
             System.out.println("please input second string value");
             String secondString= scanner.nextLine();
 
-           if ( firstString.regionMatches(firstString.length(), secondString, 0, firstString.length())){
+           if ( firstString.regionMatches(true,0, secondString, 0, firstString.length())){
                System.out.println("it matches");
            }
            else {
