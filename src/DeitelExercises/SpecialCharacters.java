@@ -45,18 +45,45 @@ public class SpecialCharacters {
         for (String elements:arrayWithoutSpecialCharacter){
             for (int i=0;i<1;i++){
                 String capitalisedWord=elements.toUpperCase();
-                char capitalisedCharacter=capitalisedWord.charAt(0);
-                StringBuilder capitalisedFirstLetter= new StringBuilder(elements.replace(elements.charAt(i), capitalisedCharacter));
-                System.out.println(capitalisedFirstLetter);
+
+
+                for (int j=capitalisedWord.length(); j>0; j--){
+                    StringBuilder remainingWord= new StringBuilder(capitalisedWord.substring(1).toLowerCase());
+//                    System.out.println(remainingWord);
+
+                    char capitalisedCharacter=capitalisedWord.charAt(0);
+                    StringBuilder capitalisedFirstLetter= new StringBuilder(elements.replace(elements.charAt(i), capitalisedCharacter));
+
+                    StringBuilder finalWord=remainingWord.append(capitalisedCharacter);
+                    StringBuilder reversed=new StringBuilder(finalWord);
+//                    StringBuilder worder=new StringBuilder();
+
+                    System.out.println(reversed);
+
+
+
+
+
+                }
+
+
+
+
+
+
+
+
             }
 
         }
+
+        System.out.println(arrayOfSpecialCharacter);
+
 
 
 
 
 //
-//        System.out.println(arrayOfSpecialCharacter);
 //        System.out.println(arrayWithoutSpecialCharacter);
 
 
