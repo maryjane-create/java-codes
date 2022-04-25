@@ -60,18 +60,7 @@ public class SpecialCharacters {
 
                     System.out.println(reversed);
 
-
-
-
-
                 }
-
-
-
-
-
-
-
 
             }
 
