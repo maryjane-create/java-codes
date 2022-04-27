@@ -1,16 +1,23 @@
 package DeitelExercises;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class StringManip{
 
     public static void main(String[] args) {
 
-        Scanner scanner= new Scanner(System.in);
-        System.out.println("please enter a five-letter string");
-        String text= scanner.nextLine();
-        System.out.println(text.substring(0,3)+" "+text.substring(1,4)+ " "+text.substring(2,5));
+     String str="Geek";
+     char[] chars=new  char[str.length()];
+
+     for (int i=0; i<str.length();i++){
+         chars[i]=str.charAt(i);
+         System.out.println(chars[i]);
+     }
+
+
+
 
 
 
