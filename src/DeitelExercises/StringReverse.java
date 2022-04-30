@@ -6,13 +6,9 @@ import java.util.Scanner;
 public class StringReverse {
 
 
-    public  String reversedWord( String word){
-        String first="";
-        String answer="";
-        for (int i=word.length()-1;i>-1;i--){
-          answer=first.concat(String.valueOf(word.charAt(i)));
-        }
-        return  answer;
+    public  StringBuilder reversedWord( StringBuilder word){
+      word.replace(word.charAt(0), word.charAt(word.length()), String.valueOf(word));
+      return word;
     }
 
 

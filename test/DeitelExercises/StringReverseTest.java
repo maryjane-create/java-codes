@@ -11,7 +11,7 @@ class StringReverseTest {
     public  void testThatTheLettersAreReversed(){
         StringReverse stringReverse= new StringReverse();
         String reversedWord="dees";
-        assertEquals(reversedWord, stringReverse.reversedWord("seed"));
+        assertEquals(reversedWord, stringReverse.reversedWord(new StringBuilder("seed")));
 
     }
 
