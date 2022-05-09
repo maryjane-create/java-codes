@@ -11,6 +11,8 @@ public class HeartRates {
 
     private LocalDate dateOfBirth;
 
+    public HeartRates(){}
+
     public HeartRates(String firstName, String lastName, LocalDate dateOfBirth) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -44,5 +46,18 @@ public class HeartRates {
     public  LocalDate getAge(){
         LocalDate age = dateOfBirth.withYear(LocalDate.now().getYear()- dateOfBirth.getYear());
         return  age;
+    }
+
+    public int maximumHeartrate() {
+        int maxHr=220-getAge().getYear();
+        return maxHr;
+    }
+
+    public int targetHeartRate() {
+        int targetHr=0;
+        for (int i=50; i<=85; i++){
+            targetHr=i*maximumHeartrate();
+        }
+        return targetHr;
     }
 }

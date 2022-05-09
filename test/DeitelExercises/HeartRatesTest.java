@@ -5,37 +5,43 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
-import java.time.Year;
 
-import static java.util.Calendar.APRIL;
-import static java.util.Calendar.MAY;
 import static org.junit.jupiter.api.Assertions.*;
 
 class HeartRatesTest {
 
+    private HeartRates heartRates;
 
 
     @BeforeEach
-    void setUp() {
+    public void setUp() {
+        heartRates = new HeartRates();
     }
 
 
     @Test
-    public  void testThatCanCalculateAge(){
-        HeartRates heartRates= new HeartRates("motun", "rayo", LocalDate.of(2000, 5, 2));
-//
-//        LocalDate date= heartRates.getDateOfBirth().withYear(heartRates.getDateOfBirth().getYear());
-//        LocalDate age = date.withYear(LocalDate.now().getYear()- date.getYear());
-//
-//        System.out.println(age.getYear());
-
-        assertEquals(22,heartRates.getAge().getYear() );
+    public  void test_calculateUsersAge(){
+        heartRates.setFirstName("zip");
+        heartRates.setDateOfBirth(LocalDate.of(2002, 11, 12));
+        heartRates.setLastName("Demon");
+        assert heartRates != null;
+        assertEquals(20, heartRates.getAge().getYear());
     }
 
     @Test
     public  void testThatCanCalculateMaximumHeartRate(){
+        HeartRates heartRates= new HeartRates("motun", "rayo", LocalDate.of(2000, 5, 2));
+        int expectedAgeFromQA =220-heartRates.getAge().getYear();
+        assertEquals(heartRates.maximumHeartrate(), expectedAgeFromQA);
+    }
+
+    @Test
+    public  void testThatCanCalculateTargetHeartRate(){
+        HeartRates heartRates= new HeartRates("motun", "rayo", LocalDate.of(2000, 5, 2));
+
+
+
+        assertEquals(heartRates.targetHeartRate(), (0.5* heartRates.maximumHeartrate()));
 
     }
 
