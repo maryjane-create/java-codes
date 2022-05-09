@@ -40,4 +40,9 @@ public class HeartRates {
     public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+
+    public  LocalDate getAge(){
+        LocalDate age = dateOfBirth.withYear(LocalDate.now().getYear()- dateOfBirth.getYear());
+        return  age;
+    }
 }

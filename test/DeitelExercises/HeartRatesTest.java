@@ -25,12 +25,17 @@ class HeartRatesTest {
     @Test
     public  void testThatCanCalculateAge(){
         HeartRates heartRates= new HeartRates("motun", "rayo", LocalDate.of(2000, 5, 2));
+//
+//        LocalDate date= heartRates.getDateOfBirth().withYear(heartRates.getDateOfBirth().getYear());
+//        LocalDate age = date.withYear(LocalDate.now().getYear()- date.getYear());
+//
+//        System.out.println(age.getYear());
 
-       LocalDate date= heartRates.getDateOfBirth().withYear(heartRates.getDateOfBirth().getYear());
-        LocalDate age = date.withYear(LocalDate.now().getYear()- date.getYear());
+        assertEquals(22,heartRates.getAge().getYear() );
+    }
 
-        System.out.println(age.getYear());
-
+    @Test
+    public  void testThatCanCalculateMaximumHeartRate(){
 
     }
 
