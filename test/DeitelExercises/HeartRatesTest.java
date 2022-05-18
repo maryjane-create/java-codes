@@ -26,7 +26,7 @@ class HeartRatesTest {
         heartRates.setLastName("Demon");
         assert heartRates != null;
         assertEquals(20, heartRates.getAge().getYear());
-    }
+   }
 
     @Test
     public  void testThatCanCalculateMaximumHeartRate(){
@@ -38,9 +38,6 @@ class HeartRatesTest {
     @Test
     public  void testThatCanCalculateTargetHeartRate(){
         HeartRates heartRates= new HeartRates("motun", "rayo", LocalDate.of(2000, 5, 2));
-
-
-
         assertEquals(heartRates.targetHeartRate(), (0.5* heartRates.maximumHeartrate()));
 
     }

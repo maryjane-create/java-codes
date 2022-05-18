@@ -56,7 +56,7 @@ public class HeartRates {
     public int targetHeartRate() {
         int targetHr=0;
         for (int i=50; i<=85; i++){
-            targetHr=i*maximumHeartrate();
+            targetHr=(i/100)*maximumHeartrate();
         }
         return targetHr;
     }
